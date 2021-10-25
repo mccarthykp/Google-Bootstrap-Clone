@@ -1,0 +1,130 @@
+body {
+    background-color: hsl(227,7%,13%);
+}
+
+.nav {
+    background-color: hsl(227,7%,13%);
+}
+
+.left-nav a {
+    font-size: .825rem;
+    color: hsl(213,5%,70%);
+}
+
+.left-nav a:hover {
+    text-decoration: underline;
+}
+
+.right-nav a {
+    font-size: .825rem;
+    color: white;
+}
+
+.right-nav a:hover {
+    text-decoration: underline;
+}
+
+.center-content {
+    margin-top: 12.5rem;
+}
+
+.center-content h1 {
+    font-size: 5.5rem;
+}
+
+.center-content input {
+    border: 1px solid hsl(213,4%,39%);
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
+    color: #fff;
+    margin-top: 1.5rem;
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+}
+
+.center-content input:focus {
+    outline: none;
+}
+
+.center-content .span1 {
+    border: 1px solid hsl(213,4%,39%);
+    border-right: none;
+    border-radius: 30px 0 0 30px;
+    background-color: transparent;
+    margin-top: 1.5rem;
+}
+
+.center-content .span2 {
+    border: 1px solid hsl(213,4%,39%);
+    border-left: none;
+    border-radius: 0 30px 30px 0;
+    background-color: transparent;
+    margin-top: 1.5rem;
+}
+
+.fa-th {
+    font-size: 1.15rem;
+    line-height: 1.5rem;
+}
+
+.uprof {
+    border-radius: 25px;
+    width: 2rem;
+    margin-top: -.25rem;
+}
+
+.icon {
+    margin: 0 .85rem;
+}
+
+.search {
+    color: hsl(207,5%,59%);
+    font-size: .95rem;
+}
+
+.mp {
+    display: flex;
+    width: .78%;
+    position: absolute;
+    margin-left: -1.5rem;
+}
+
+.center-content button {
+    border: none;
+    border-radius: 4px;
+    background-color: hsl(224,4%,19%);
+    color: #fff;
+    font-size: .825rem;
+    margin: 2rem .35rem;
+    padding: .5rem 1.15rem;
+}
+
+.center-content button:hover {
+    -webkit-box-shadow:inset 0px 0px 0px 1px hsl(207, 5%, 50%);
+    -moz-box-shadow:inset 0px 0px 0px 1px hsl(207, 5%, 50%);
+    box-shadow:inset 0px 0px 0px 1px hsl(207, 5%, 50%);
+}
+
+footer {
+    background-color: hsl(0,0%,9%);
+}
+
+footer a {
+    color: hsl(213,5%,70%);
+    font-size: .825rem;
+}
+
+footer a:hover {
+    color: hsl(213,5%,70%) !important;
+    text-decoration: underline !important;
+}
+
+.carbon-text {
+    margin-left: -8rem;
+}
+
+.carbon img {
+    margin-right: .5rem;
+    width: .85rem;
+}
